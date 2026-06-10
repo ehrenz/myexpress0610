@@ -50,5 +50,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'expresso'
+          slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A6B47A2C86824955AB03636F2640D73F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6B820267A7534658936FFE31AEF675C2 }}
